@@ -1,0 +1,789 @@
+2025/06/23 02:22:26 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:27 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:28 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:29 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:30 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:32 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:35 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:42 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:22:55 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:23:22 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:24:13 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:25:14 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2025/06/23 02:27:37 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/23 02:32:51 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 02:32:51 [debug] 7#7: posix_memalign: 000055C6BD6EF1F0:512 @16
+2025/06/23 02:32:51 [debug] 7#7: *8 accept: 172.20.0.1:47022 fd:3
+2025/06/23 02:32:51 [debug] 7#7: *8 event timer add: 3: 60000:15460102
+2025/06/23 02:32:51 [debug] 7#7: *8 reusable connection: 1
+2025/06/23 02:32:51 [debug] 7#7: *8 epoll add event: fd:3 op:1 ev:80002001
+2025/06/23 02:32:51 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 02:32:51 [debug] 7#7: posix_memalign: 000055C6BD6D47A0:512 @16
+2025/06/23 02:32:51 [debug] 7#7: *9 accept: 172.20.0.1:47032 fd:11
+2025/06/23 02:32:51 [debug] 7#7: *9 event timer add: 11: 60000:15460104
+2025/06/23 02:32:51 [debug] 7#7: *9 reusable connection: 1
+2025/06/23 02:32:51 [debug] 7#7: *9 epoll add event: fd:11 op:1 ev:80002001
+2025/06/23 02:32:51 [debug] 7#7: *8 http wait request handler
+2025/06/23 02:32:51 [debug] 7#7: *8 malloc: 000055C6BD6D51B0:1024
+2025/06/23 02:32:51 [debug] 7#7: *8 recv: eof:0, avail:-1
+2025/06/23 02:32:51 [debug] 7#7: *8 recv: fd:3 821 of 1024
+2025/06/23 02:32:51 [debug] 7#7: *8 reusable connection: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 posix_memalign: 000055C6BD6F5480:4096 @16
+2025/06/23 02:32:51 [debug] 7#7: *8 http process request line
+2025/06/23 02:32:51 [debug] 7#7: *8 http request line: "GET /hls/index.m3u8 HTTP/1.1"
+2025/06/23 02:32:51 [debug] 7#7: *8 http uri: "/hls/index.m3u8"
+2025/06/23 02:32:51 [debug] 7#7: *8 http args: ""
+2025/06/23 02:32:51 [debug] 7#7: *8 http exten: "m3u8"
+2025/06/23 02:32:51 [debug] 7#7: *8 posix_memalign: 000055C6BD758930:4096 @16
+2025/06/23 02:32:51 [debug] 7#7: *8 http process request header line
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Host: localhost:9190"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Connection: keep-alive"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "sec-ch-ua: "Microsoft Edge";v="137", "Chromium";v="137", "Not/A)Brand";v="24""
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "sec-ch-ua-mobile: ?0"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "sec-ch-ua-platform: "Windows""
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Upgrade-Insecure-Requests: 1"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Sec-Fetch-Site: none"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Sec-Fetch-Mode: navigate"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Sec-Fetch-User: ?1"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Sec-Fetch-Dest: document"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Accept-Language: en-US,en;q=0.9"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header: "Cookie: deviceId=ddb034409d5f0f10cfd60de9ae17f94a8697ecde0d24bfb1205ed83fd0e30b8c; JSESSIONID=9E73450AF18D3345A8B714B3811D2BE2"
+2025/06/23 02:32:51 [debug] 7#7: *8 http header done
+2025/06/23 02:32:51 [debug] 7#7: *8 event timer del: 3: 15460102
+2025/06/23 02:32:51 [debug] 7#7: *8 rewrite phase: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 test location: "/"
+2025/06/23 02:32:51 [debug] 7#7: *8 test location: "hls"
+2025/06/23 02:32:51 [debug] 7#7: *8 using configuration "/hls"
+2025/06/23 02:32:51 [debug] 7#7: *8 http cl:-1 max:1048576
+2025/06/23 02:32:51 [debug] 7#7: *8 rewrite phase: 2
+2025/06/23 02:32:51 [debug] 7#7: *8 post rewrite phase: 3
+2025/06/23 02:32:51 [debug] 7#7: *8 generic phase: 4
+2025/06/23 02:32:51 [debug] 7#7: *8 generic phase: 5
+2025/06/23 02:32:51 [debug] 7#7: *8 access phase: 6
+2025/06/23 02:32:51 [debug] 7#7: *8 access phase: 7
+2025/06/23 02:32:51 [debug] 7#7: *8 post access phase: 8
+2025/06/23 02:32:51 [debug] 7#7: *8 generic phase: 9
+2025/06/23 02:32:51 [debug] 7#7: *8 generic phase: 10
+2025/06/23 02:32:51 [debug] 7#7: *8 content phase: 11
+2025/06/23 02:32:51 [debug] 7#7: *8 content phase: 12
+2025/06/23 02:32:51 [debug] 7#7: *8 content phase: 13
+2025/06/23 02:32:51 [debug] 7#7: *8 http filename: "/opt/data/hls/index.m3u8"
+2025/06/23 02:32:51 [debug] 7#7: *8 add cleanup: 000055C6BD6F6218
+2025/06/23 02:32:51 [error] 7#7: *8 open() "/opt/data/hls/index.m3u8" failed (2: No such file or directory), client: 172.20.0.1, server: , request: "GET /hls/index.m3u8 HTTP/1.1", host: "localhost:9190"
+2025/06/23 02:32:51 [debug] 7#7: *8 http finalize request: 404, "/hls/index.m3u8?" a:1, c:1
+2025/06/23 02:32:51 [debug] 7#7: *8 http special response: 404, "/hls/index.m3u8?"
+2025/06/23 02:32:51 [debug] 7#7: *8 http set discard body
+2025/06/23 02:32:51 [debug] 7#7: *8 HTTP/1.1 404 Not Found
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 02:32:51 GMT
+Content-Type: text/html
+Content-Length: 555
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+
+2025/06/23 02:32:51 [debug] 7#7: *8 write new buf t:1 f:0 000055C6BD6F6298, pos 000055C6BD6F6298, size: 329 file: 0, size: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 http write filter: l:0 f:0 s:329
+2025/06/23 02:32:51 [debug] 7#7: *8 http output filter "/hls/index.m3u8?"
+2025/06/23 02:32:51 [debug] 7#7: *8 http copy filter: "/hls/index.m3u8?"
+2025/06/23 02:32:51 [debug] 7#7: *8 http postpone filter "/hls/index.m3u8?" 000055C6BD6F6458
+2025/06/23 02:32:51 [debug] 7#7: *8 write old buf t:1 f:0 000055C6BD6F6298, pos 000055C6BD6F6298, size: 329 file: 0, size: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320F3E0, size: 100 file: 0, size: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320FB40, size: 53 file: 0, size: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320F920, size: 402 file: 0, size: 0
+2025/06/23 02:32:51 [debug] 7#7: *8 http write filter: l:1 f:0 s:884
+2025/06/23 02:32:51 [debug] 7#7: *8 http write filter limit 2097152
+2025/06/23 02:32:51 [debug] 7#7: *8 writev: 884 of 884
+2025/06/23 02:32:51 [debug] 7#7: *8 http write filter 0000000000000000
+2025/06/23 02:32:51 [debug] 7#7: *8 http copy filter: 0 "/hls/index.m3u8?"
+2025/06/23 02:32:51 [debug] 7#7: *8 http finalize request: 0, "/hls/index.m3u8?" a:1, c:1
+2025/06/23 02:32:51 [debug] 7#7: *8 set http keepalive handler
+2025/06/23 02:32:51 [debug] 7#7: *8 http close request
+2025/06/23 02:32:51 [debug] 7#7: *8 http log handler
+2025/06/23 02:32:51 [debug] 7#7: *8 free: 000055C6BD6F5480, unused: 8
+2025/06/23 02:32:51 [debug] 7#7: *8 free: 000055C6BD758930, unused: 2351
+2025/06/23 02:32:51 [debug] 7#7: *8 free: 000055C6BD6D51B0
+2025/06/23 02:32:51 [debug] 7#7: *8 hc free: 0000000000000000
+2025/06/23 02:32:51 [debug] 7#7: *8 hc busy: 0000000000000000 0
+2025/06/23 02:32:51 [debug] 7#7: *8 tcp_nodelay
+2025/06/23 02:32:51 [debug] 7#7: *8 reusable connection: 1
+2025/06/23 02:32:51 [debug] 7#7: *8 event timer add: 3: 65000:15465104
+2025/06/23 02:32:52 [debug] 7#7: *8 http keepalive handler
+2025/06/23 02:32:52 [debug] 7#7: *8 malloc: 000055C6BD6D51B0:1024
+2025/06/23 02:32:52 [debug] 7#7: *8 recv: eof:0, avail:-1
+2025/06/23 02:32:52 [debug] 7#7: *8 recv: fd:3 747 of 1024
+2025/06/23 02:32:52 [debug] 7#7: *8 reusable connection: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 posix_memalign: 000055C6BD6F5480:4096 @16
+2025/06/23 02:32:52 [debug] 7#7: *8 event timer del: 3: 15465104
+2025/06/23 02:32:52 [debug] 7#7: *8 http process request line
+2025/06/23 02:32:52 [debug] 7#7: *8 http request line: "GET /favicon.ico HTTP/1.1"
+2025/06/23 02:32:52 [debug] 7#7: *8 http uri: "/favicon.ico"
+2025/06/23 02:32:52 [debug] 7#7: *8 http args: ""
+2025/06/23 02:32:52 [debug] 7#7: *8 http exten: "ico"
+2025/06/23 02:32:52 [debug] 7#7: *8 posix_memalign: 000055C6BD758930:4096 @16
+2025/06/23 02:32:52 [debug] 7#7: *8 http process request header line
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Host: localhost:9190"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Connection: keep-alive"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "sec-ch-ua-platform: "Windows""
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "sec-ch-ua: "Microsoft Edge";v="137", "Chromium";v="137", "Not/A)Brand";v="24""
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "sec-ch-ua-mobile: ?0"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Sec-Fetch-Site: same-origin"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Sec-Fetch-Mode: no-cors"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Sec-Fetch-Dest: image"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Referer: http://localhost:9190/hls/index.m3u8"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Accept-Language: en-US,en;q=0.9"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header: "Cookie: deviceId=ddb034409d5f0f10cfd60de9ae17f94a8697ecde0d24bfb1205ed83fd0e30b8c; JSESSIONID=9E73450AF18D3345A8B714B3811D2BE2"
+2025/06/23 02:32:52 [debug] 7#7: *8 http header done
+2025/06/23 02:32:52 [debug] 7#7: *8 rewrite phase: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 test location: "/"
+2025/06/23 02:32:52 [debug] 7#7: *8 test location: "hls"
+2025/06/23 02:32:52 [debug] 7#7: *8 using configuration "/"
+2025/06/23 02:32:52 [debug] 7#7: *8 http cl:-1 max:1048576
+2025/06/23 02:32:52 [debug] 7#7: *8 rewrite phase: 2
+2025/06/23 02:32:52 [debug] 7#7: *8 post rewrite phase: 3
+2025/06/23 02:32:52 [debug] 7#7: *8 generic phase: 4
+2025/06/23 02:32:52 [debug] 7#7: *8 generic phase: 5
+2025/06/23 02:32:52 [debug] 7#7: *8 access phase: 6
+2025/06/23 02:32:52 [debug] 7#7: *8 access phase: 7
+2025/06/23 02:32:52 [debug] 7#7: *8 post access phase: 8
+2025/06/23 02:32:52 [debug] 7#7: *8 generic phase: 9
+2025/06/23 02:32:52 [debug] 7#7: *8 generic phase: 10
+2025/06/23 02:32:52 [debug] 7#7: *8 content phase: 11
+2025/06/23 02:32:52 [debug] 7#7: *8 content phase: 12
+2025/06/23 02:32:52 [debug] 7#7: *8 content phase: 13
+2025/06/23 02:32:52 [debug] 7#7: *8 http filename: "/tmp/favicon.ico"
+2025/06/23 02:32:52 [debug] 7#7: *8 add cleanup: 000055C6BD6F61F0
+2025/06/23 02:32:52 [error] 7#7: *8 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:9190", referrer: "http://localhost:9190/hls/index.m3u8"
+2025/06/23 02:32:52 [debug] 7#7: *8 http finalize request: 404, "/favicon.ico?" a:1, c:1
+2025/06/23 02:32:52 [debug] 7#7: *8 http special response: 404, "/favicon.ico?"
+2025/06/23 02:32:52 [debug] 7#7: *8 http set discard body
+2025/06/23 02:32:52 [debug] 7#7: *8 HTTP/1.1 404 Not Found
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 02:32:52 GMT
+Content-Type: text/html
+Content-Length: 555
+Connection: keep-alive
+
+2025/06/23 02:32:52 [debug] 7#7: *8 write new buf t:1 f:0 000055C6BD6F6270, pos 000055C6BD6F6270, size: 155 file: 0, size: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 http write filter: l:0 f:0 s:155
+2025/06/23 02:32:52 [debug] 7#7: *8 http output filter "/favicon.ico?"
+2025/06/23 02:32:52 [debug] 7#7: *8 http copy filter: "/favicon.ico?"
+2025/06/23 02:32:52 [debug] 7#7: *8 http postpone filter "/favicon.ico?" 000055C6BD6F6420
+2025/06/23 02:32:52 [debug] 7#7: *8 write old buf t:1 f:0 000055C6BD6F6270, pos 000055C6BD6F6270, size: 155 file: 0, size: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320F3E0, size: 100 file: 0, size: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320FB40, size: 53 file: 0, size: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 write new buf t:0 f:0 0000000000000000, pos 000055C69320F920, size: 402 file: 0, size: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 http write filter: l:1 f:0 s:710
+2025/06/23 02:32:52 [debug] 7#7: *8 http write filter limit 2097152
+2025/06/23 02:32:52 [debug] 7#7: *8 writev: 710 of 710
+2025/06/23 02:32:52 [debug] 7#7: *8 http write filter 0000000000000000
+2025/06/23 02:32:52 [debug] 7#7: *8 http copy filter: 0 "/favicon.ico?"
+2025/06/23 02:32:52 [debug] 7#7: *8 http finalize request: 0, "/favicon.ico?" a:1, c:1
+2025/06/23 02:32:52 [debug] 7#7: *8 set http keepalive handler
+2025/06/23 02:32:52 [debug] 7#7: *8 http close request
+2025/06/23 02:32:52 [debug] 7#7: *8 http log handler
+2025/06/23 02:32:52 [debug] 7#7: *8 free: 000055C6BD6F5480, unused: 0
+2025/06/23 02:32:52 [debug] 7#7: *8 free: 000055C6BD758930, unused: 2543
+2025/06/23 02:32:52 [debug] 7#7: *8 free: 000055C6BD6D51B0
+2025/06/23 02:32:52 [debug] 7#7: *8 hc free: 0000000000000000
+2025/06/23 02:32:52 [debug] 7#7: *8 hc busy: 0000000000000000 0
+2025/06/23 02:32:52 [debug] 7#7: *8 reusable connection: 1
+2025/06/23 02:32:52 [debug] 7#7: *8 event timer add: 3: 65000:15466963
+2025/06/23 02:33:51 [debug] 7#7: *9 event timer del: 11: 15460104
+2025/06/23 02:33:51 [debug] 7#7: *9 http wait request handler
+2025/06/23 02:33:51 [info] 7#7: *9 client timed out (110: Connection timed out) while waiting for request, client: 172.20.0.1, server: 0.0.0.0:9190
+2025/06/23 02:33:51 [debug] 7#7: *9 close http connection: 11
+2025/06/23 02:33:51 [debug] 7#7: *9 reusable connection: 0
+2025/06/23 02:33:51 [debug] 7#7: *9 free: 000055C6BD6D47A0, unused: 232
+2025/06/23 02:33:58 [debug] 7#7: *8 event timer del: 3: 15466963
+2025/06/23 02:33:58 [debug] 7#7: *8 http keepalive handler
+2025/06/23 02:33:58 [debug] 7#7: *8 close http connection: 3
+2025/06/23 02:33:58 [debug] 7#7: *8 reusable connection: 0
+2025/06/23 02:33:58 [debug] 7#7: *8 free: 0000000000000000
+2025/06/23 02:33:58 [debug] 7#7: *8 free: 000055C6BD6EF1F0, unused: 136
+2025/06/23 02:34:36 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 02:34:36 [debug] 7#7: posix_memalign: 000055C6BD6EF1F0:512 @16
+2025/06/23 02:34:36 [debug] 7#7: *11 accept: 172.20.0.1:33294 fd:3
+2025/06/23 02:34:36 [debug] 7#7: *11 event timer add: 3: 60000:15565596
+2025/06/23 02:34:36 [debug] 7#7: *11 reusable connection: 1
+2025/06/23 02:34:36 [debug] 7#7: *11 epoll add event: fd:3 op:1 ev:80002001
+2025/06/23 02:34:36 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 02:34:36 [debug] 7#7: posix_memalign: 000055C6BD6D47A0:512 @16
+2025/06/23 02:34:36 [debug] 7#7: *12 accept: 172.20.0.1:33306 fd:11
+2025/06/23 02:34:36 [debug] 7#7: *12 event timer add: 11: 60000:15565599
+2025/06/23 02:34:36 [debug] 7#7: *12 reusable connection: 1
+2025/06/23 02:34:36 [debug] 7#7: *12 epoll add event: fd:11 op:1 ev:80002001
+2025/06/23 02:34:36 [debug] 7#7: *11 http wait request handler
+2025/06/23 02:34:36 [debug] 7#7: *11 malloc: 000055C6BD6D51B0:1024
+2025/06/23 02:34:36 [debug] 7#7: *11 recv: eof:0, avail:-1
+2025/06/23 02:34:36 [debug] 7#7: *11 recv: fd:3 821 of 1024
+2025/06/23 02:34:36 [debug] 7#7: *11 reusable connection: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 posix_memalign: 000055C6BD6F5480:4096 @16
+2025/06/23 02:34:36 [debug] 7#7: *11 http process request line
+2025/06/23 02:34:36 [debug] 7#7: *11 http request line: "GET /hls/index.m3u8 HTTP/1.1"
+2025/06/23 02:34:36 [debug] 7#7: *11 http uri: "/hls/index.m3u8"
+2025/06/23 02:34:36 [debug] 7#7: *11 http args: ""
+2025/06/23 02:34:36 [debug] 7#7: *11 http exten: "m3u8"
+2025/06/23 02:34:36 [debug] 7#7: *11 posix_memalign: 000055C6BD758930:4096 @16
+2025/06/23 02:34:36 [debug] 7#7: *11 http process request header line
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Host: localhost:9190"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Connection: keep-alive"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "sec-ch-ua: "Microsoft Edge";v="137", "Chromium";v="137", "Not/A)Brand";v="24""
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "sec-ch-ua-mobile: ?0"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "sec-ch-ua-platform: "Windows""
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Upgrade-Insecure-Requests: 1"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Sec-Fetch-Site: none"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Sec-Fetch-Mode: navigate"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Sec-Fetch-User: ?1"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Sec-Fetch-Dest: document"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Accept-Language: en-US,en;q=0.9"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header: "Cookie: deviceId=ddb034409d5f0f10cfd60de9ae17f94a8697ecde0d24bfb1205ed83fd0e30b8c; JSESSIONID=9E73450AF18D3345A8B714B3811D2BE2"
+2025/06/23 02:34:36 [debug] 7#7: *11 http header done
+2025/06/23 02:34:36 [debug] 7#7: *11 event timer del: 3: 15565596
+2025/06/23 02:34:36 [debug] 7#7: *11 rewrite phase: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 test location: "/"
+2025/06/23 02:34:36 [debug] 7#7: *11 test location: "hls"
+2025/06/23 02:34:36 [debug] 7#7: *11 using configuration "/hls"
+2025/06/23 02:34:36 [debug] 7#7: *11 http cl:-1 max:1048576
+2025/06/23 02:34:36 [debug] 7#7: *11 rewrite phase: 2
+2025/06/23 02:34:36 [debug] 7#7: *11 post rewrite phase: 3
+2025/06/23 02:34:36 [debug] 7#7: *11 generic phase: 4
+2025/06/23 02:34:36 [debug] 7#7: *11 generic phase: 5
+2025/06/23 02:34:36 [debug] 7#7: *11 access phase: 6
+2025/06/23 02:34:36 [debug] 7#7: *11 access phase: 7
+2025/06/23 02:34:36 [debug] 7#7: *11 post access phase: 8
+2025/06/23 02:34:36 [debug] 7#7: *11 generic phase: 9
+2025/06/23 02:34:36 [debug] 7#7: *11 generic phase: 10
+2025/06/23 02:34:36 [debug] 7#7: *11 content phase: 11
+2025/06/23 02:34:36 [debug] 7#7: *11 content phase: 12
+2025/06/23 02:34:36 [debug] 7#7: *11 content phase: 13
+2025/06/23 02:34:36 [debug] 7#7: *11 http filename: "/opt/data/hls/index.m3u8"
+2025/06/23 02:34:36 [debug] 7#7: *11 add cleanup: 000055C6BD6F6218
+2025/06/23 02:34:36 [error] 7#7: *11 open() "/opt/data/hls/index.m3u8" failed (2: No such file or directory), client: 172.20.0.1, server: , request: "GET /hls/index.m3u8 HTTP/1.1", host: "localhost:9190"
+2025/06/23 02:34:36 [debug] 7#7: *11 http finalize request: 404, "/hls/index.m3u8?" a:1, c:1
+2025/06/23 02:34:36 [debug] 7#7: *11 http special response: 404, "/hls/index.m3u8?"
+2025/06/23 02:34:36 [debug] 7#7: *11 http set discard body
+2025/06/23 02:34:36 [debug] 7#7: *11 HTTP/1.1 404 Not Found
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 02:34:36 GMT
+Content-Type: text/html
+Content-Length: 555
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+
+2025/06/23 02:34:36 [debug] 7#7: *11 write new buf t:1 f:0 000055C6BD6F6298, pos 000055C6BD6F6298, size: 329 file: 0, size: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 http write filter: l:0 f:0 s:329
+2025/06/23 02:34:36 [debug] 7#7: *11 http output filter "/hls/index.m3u8?"
+2025/06/23 02:34:36 [debug] 7#7: *11 http copy filter: "/hls/index.m3u8?"
+2025/06/23 02:34:36 [debug] 7#7: *11 http postpone filter "/hls/index.m3u8?" 000055C6BD6F6458
+2025/06/23 02:34:36 [debug] 7#7: *11 write old buf t:1 f:0 000055C6BD6F6298, pos 000055C6BD6F6298, size: 329 file: 0, size: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 write new buf t:0 f:0 0000000000000000, pos 000055C69320F3E0, size: 100 file: 0, size: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 write new buf t:0 f:0 0000000000000000, pos 000055C69320FB40, size: 53 file: 0, size: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 write new buf t:0 f:0 0000000000000000, pos 000055C69320F920, size: 402 file: 0, size: 0
+2025/06/23 02:34:36 [debug] 7#7: *11 http write filter: l:1 f:0 s:884
+2025/06/23 02:34:36 [debug] 7#7: *11 http write filter limit 2097152
+2025/06/23 02:34:36 [debug] 7#7: *11 writev: 884 of 884
+2025/06/23 02:34:36 [debug] 7#7: *11 http write filter 0000000000000000
+2025/06/23 02:34:36 [debug] 7#7: *11 http copy filter: 0 "/hls/index.m3u8?"
+2025/06/23 02:34:36 [debug] 7#7: *11 http finalize request: 0, "/hls/index.m3u8?" a:1, c:1
+2025/06/23 02:34:36 [debug] 7#7: *11 set http keepalive handler
+2025/06/23 02:34:36 [debug] 7#7: *11 http close request
+2025/06/23 02:34:36 [debug] 7#7: *11 http log handler
+2025/06/23 02:34:36 [debug] 7#7: *11 free: 000055C6BD6F5480, unused: 8
+2025/06/23 02:34:36 [debug] 7#7: *11 free: 000055C6BD758930, unused: 2351
+2025/06/23 02:34:36 [debug] 7#7: *11 free: 000055C6BD6D51B0
+2025/06/23 02:34:36 [debug] 7#7: *11 hc free: 0000000000000000
+2025/06/23 02:34:36 [debug] 7#7: *11 hc busy: 0000000000000000 0
+2025/06/23 02:34:36 [debug] 7#7: *11 tcp_nodelay
+2025/06/23 02:34:36 [debug] 7#7: *11 reusable connection: 1
+2025/06/23 02:34:36 [debug] 7#7: *11 event timer add: 3: 65000:15570599
+2025/06/23 02:34:48 [debug] 7#7: *11 http keepalive handler
+2025/06/23 02:34:48 [debug] 7#7: *11 malloc: 000055C6BD6D51B0:1024
+2025/06/23 02:34:48 [debug] 7#7: *11 recv: eof:0, avail:-1
+2025/06/23 02:34:48 [debug] 7#7: *11 recv: fd:3 828 of 1024
+2025/06/23 02:34:48 [debug] 7#7: *11 reusable connection: 0
+2025/06/23 02:34:48 [debug] 7#7: *11 posix_memalign: 000055C6BD6F5480:4096 @16
+2025/06/23 02:34:48 [debug] 7#7: *11 event timer del: 3: 15570599
+2025/06/23 02:34:48 [debug] 7#7: *11 http process request line
+2025/06/23 02:34:48 [debug] 7#7: *11 http request line: "GET /hls/stream/index.m3u8 HTTP/1.1"
+2025/06/23 02:34:48 [debug] 7#7: *11 http uri: "/hls/stream/index.m3u8"
+2025/06/23 02:34:48 [debug] 7#7: *11 http args: ""
+2025/06/23 02:34:48 [debug] 7#7: *11 http exten: "m3u8"
+2025/06/23 02:34:48 [debug] 7#7: *11 posix_memalign: 000055C6BD758930:4096 @16
+2025/06/23 02:34:48 [debug] 7#7: *11 http process request header line
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Host: localhost:9190"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Connection: keep-alive"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "sec-ch-ua: "Microsoft Edge";v="137", "Chromium";v="137", "Not/A)Brand";v="24""
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "sec-ch-ua-mobile: ?0"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "sec-ch-ua-platform: "Windows""
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Upgrade-Insecure-Requests: 1"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Sec-Fetch-Site: none"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Sec-Fetch-Mode: navigate"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Sec-Fetch-User: ?1"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Sec-Fetch-Dest: document"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Accept-Language: en-US,en;q=0.9"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header: "Cookie: deviceId=ddb034409d5f0f10cfd60de9ae17f94a8697ecde0d24bfb1205ed83fd0e30b8c; JSESSIONID=9E73450AF18D3345A8B714B3811D2BE2"
+2025/06/23 02:34:48 [debug] 7#7: *11 http header done
+2025/06/23 02:34:48 [debug] 7#7: *11 rewrite phase: 0
+2025/06/23 02:34:48 [debug] 7#7: *11 test location: "/"
+2025/06/23 02:34:48 [debug] 7#7: *11 test location: "hls"
+2025/06/23 02:34:48 [debug] 7#7: *11 using configuration "/hls"
+2025/06/23 02:34:48 [debug] 7#7: *11 http cl:-1 max:1048576
+2025/06/23 02:34:48 [debug] 7#7: *11 rewrite phase: 2
+2025/06/23 02:34:48 [debug] 7#7: *11 post rewrite phase: 3
+2025/06/23 02:34:48 [debug] 7#7: *11 generic phase: 4
+2025/06/23 02:34:48 [debug] 7#7: *11 generic phase: 5
+2025/06/23 02:34:48 [debug] 7#7: *11 access phase: 6
+2025/06/23 02:34:48 [debug] 7#7: *11 access phase: 7
+2025/06/23 02:34:48 [debug] 7#7: *11 post access phase: 8
+2025/06/23 02:34:48 [debug] 7#7: *11 generic phase: 9
+2025/06/23 02:34:48 [debug] 7#7: *11 generic phase: 10
+2025/06/23 02:34:48 [debug] 7#7: *11 content phase: 11
+2025/06/23 02:34:48 [debug] 7#7: *11 content phase: 12
+2025/06/23 02:34:48 [debug] 7#7: *11 content phase: 13
+2025/06/23 02:34:48 [debug] 7#7: *11 http filename: "/opt/data/hls/stream/index.m3u8"
+2025/06/23 02:34:48 [debug] 7#7: *11 add cleanup: 000055C6BD6F6220
+2025/06/23 02:34:48 [debug] 7#7: *11 http static fd: 12
+2025/06/23 02:34:48 [debug] 7#7: *11 http set discard body
+2025/06/23 02:34:48 [debug] 7#7: *11 HTTP/1.1 200 OK
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 02:34:48 GMT
+Content-Type: application/vnd.apple.mpegurl
+Content-Length: 179
+Last-Modified: Mon, 23 Jun 2025 02:33:53 GMT
+Connection: keep-alive
+ETag: "6858bd11-b3"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Accept-Ranges: bytes
+
+2025/06/23 02:34:48 [debug] 7#7: *11 write new buf t:1 f:0 000055C6BD758DB0, pos 000055C6BD758DB0, size: 456 file: 0, size: 0
+2025/06/23 02:34:48 [debug] 7#7: *11 http write filter: l:0 f:0 s:456
+2025/06/23 02:34:48 [debug] 7#7: *11 http output filter "/hls/stream/index.m3u8?"
+2025/06/23 02:34:48 [debug] 7#7: *11 http copy filter: "/hls/stream/index.m3u8?"
+2025/06/23 02:34:48 [debug] 7#7: *11 http postpone filter "/hls/stream/index.m3u8?" 00007FFCDC9D6460
+2025/06/23 02:34:48 [debug] 7#7: *11 write old buf t:1 f:0 000055C6BD758DB0, pos 000055C6BD758DB0, size: 456 file: 0, size: 0
+2025/06/23 02:34:48 [debug] 7#7: *11 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 179
+2025/06/23 02:34:48 [debug] 7#7: *11 http write filter: l:1 f:0 s:635
+2025/06/23 02:34:48 [debug] 7#7: *11 http write filter limit 2097152
+2025/06/23 02:34:48 [debug] 7#7: *11 writev: 456 of 456
+2025/06/23 02:34:48 [debug] 7#7: *11 sendfile: @0 179
+2025/06/23 02:34:48 [debug] 7#7: *11 sendfile: 179 of 179 @0
+2025/06/23 02:34:48 [debug] 7#7: *11 http write filter 0000000000000000
+2025/06/23 02:34:48 [debug] 7#7: *11 http copy filter: 0 "/hls/stream/index.m3u8?"
+2025/06/23 02:34:48 [debug] 7#7: *11 http finalize request: 0, "/hls/stream/index.m3u8?" a:1, c:1
+2025/06/23 02:34:48 [debug] 7#7: *11 set http keepalive handler
+2025/06/23 02:34:48 [debug] 7#7: *11 http close request
+2025/06/23 02:34:48 [debug] 7#7: *11 http log handler
+2025/06/23 02:34:48 [debug] 7#7: *11 run cleanup: 000055C6BD6F6220
+2025/06/23 02:34:48 [debug] 7#7: *11 file cleanup: fd:12
+2025/06/23 02:34:48 [debug] 7#7: *11 free: 000055C6BD6F5480, unused: 96
+2025/06/23 02:34:48 [debug] 7#7: *11 free: 000055C6BD758930, unused: 2088
+2025/06/23 02:34:48 [debug] 7#7: *11 free: 000055C6BD6D51B0
+2025/06/23 02:34:48 [debug] 7#7: *11 hc free: 0000000000000000
+2025/06/23 02:34:48 [debug] 7#7: *11 hc busy: 0000000000000000 0
+2025/06/23 02:34:48 [debug] 7#7: *11 reusable connection: 1
+2025/06/23 02:34:48 [debug] 7#7: *11 event timer add: 3: 65000:15582108
+2025/06/23 02:35:36 [debug] 7#7: *12 event timer del: 11: 15565599
+2025/06/23 02:35:36 [debug] 7#7: *12 http wait request handler
+2025/06/23 02:35:36 [info] 7#7: *12 client timed out (110: Connection timed out) while waiting for request, client: 172.20.0.1, server: 0.0.0.0:9190
+2025/06/23 02:35:36 [debug] 7#7: *12 close http connection: 11
+2025/06/23 02:35:36 [debug] 7#7: *12 reusable connection: 0
+2025/06/23 02:35:36 [debug] 7#7: *12 free: 000055C6BD6D47A0, unused: 232
+2025/06/23 02:35:53 [debug] 7#7: *11 event timer del: 3: 15582108
+2025/06/23 02:35:53 [debug] 7#7: *11 http keepalive handler
+2025/06/23 02:35:53 [debug] 7#7: *11 close http connection: 3
+2025/06/23 02:35:53 [debug] 7#7: *11 reusable connection: 0
+2025/06/23 02:35:53 [debug] 7#7: *11 free: 0000000000000000
+2025/06/23 02:35:53 [debug] 7#7: *11 free: 000055C6BD6EF1F0, unused: 136
+2025/06/23 06:58:12 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/23 08:14:00 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 08:14:00 [debug] 7#7: posix_memalign: 00005C6F4FEEC1F0:512 @16
+2025/06/23 08:14:00 [debug] 7#7: *1 accept: 172.20.0.1:46894 fd:3
+2025/06/23 08:14:00 [debug] 7#7: *1 event timer add: 3: 60000:35928932
+2025/06/23 08:14:00 [debug] 7#7: *1 reusable connection: 1
+2025/06/23 08:14:00 [debug] 7#7: *1 epoll add event: fd:3 op:1 ev:80002001
+2025/06/23 08:14:00 [debug] 7#7: *1 http wait request handler
+2025/06/23 08:14:00 [debug] 7#7: *1 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:00 [debug] 7#7: *1 recv: eof:0, avail:-1
+2025/06/23 08:14:00 [debug] 7#7: *1 recv: fd:3 153 of 1024
+2025/06/23 08:14:00 [debug] 7#7: *1 reusable connection: 0
+2025/06/23 08:14:00 [debug] 7#7: *1 posix_memalign: 00005C6F4FEE8E40:4096 @16
+2025/06/23 08:14:00 [debug] 7#7: *1 http process request line
+2025/06/23 08:14:00 [debug] 7#7: *1 http request line: "GET /hls/test_2/index.m3u8 HTTP/1.1"
+2025/06/23 08:14:00 [debug] 7#7: *1 http uri: "/hls/test_2/index.m3u8"
+2025/06/23 08:14:00 [debug] 7#7: *1 http args: ""
+2025/06/23 08:14:00 [debug] 7#7: *1 http exten: "m3u8"
+2025/06/23 08:14:00 [debug] 7#7: *1 posix_memalign: 00005C6F4FEFBCB0:4096 @16
+2025/06/23 08:14:00 [debug] 7#7: *1 http process request header line
+2025/06/23 08:14:00 [debug] 7#7: *1 http header: "Host: localhost:9190"
+2025/06/23 08:14:00 [debug] 7#7: *1 http header: "Accept: */*"
+2025/06/23 08:14:00 [debug] 7#7: *1 http header: "Accept-Language: en_US"
+2025/06/23 08:14:00 [debug] 7#7: *1 http header: "User-Agent: VLC/3.0.21 LibVLC/3.0.21"
+2025/06/23 08:14:00 [debug] 7#7: *1 http header: "Range: bytes=0-"
+2025/06/23 08:14:00 [debug] 7#7: *1 http header done
+2025/06/23 08:14:00 [debug] 7#7: *1 event timer del: 3: 35928932
+2025/06/23 08:14:00 [debug] 7#7: *1 rewrite phase: 0
+2025/06/23 08:14:00 [debug] 7#7: *1 test location: "/"
+2025/06/23 08:14:00 [debug] 7#7: *1 test location: "hls"
+2025/06/23 08:14:00 [debug] 7#7: *1 using configuration "/hls"
+2025/06/23 08:14:00 [debug] 7#7: *1 http cl:-1 max:1048576
+2025/06/23 08:14:00 [debug] 7#7: *1 rewrite phase: 2
+2025/06/23 08:14:00 [debug] 7#7: *1 post rewrite phase: 3
+2025/06/23 08:14:00 [debug] 7#7: *1 generic phase: 4
+2025/06/23 08:14:00 [debug] 7#7: *1 generic phase: 5
+2025/06/23 08:14:00 [debug] 7#7: *1 access phase: 6
+2025/06/23 08:14:00 [debug] 7#7: *1 access phase: 7
+2025/06/23 08:14:00 [debug] 7#7: *1 post access phase: 8
+2025/06/23 08:14:00 [debug] 7#7: *1 generic phase: 9
+2025/06/23 08:14:00 [debug] 7#7: *1 generic phase: 10
+2025/06/23 08:14:00 [debug] 7#7: *1 content phase: 11
+2025/06/23 08:14:00 [debug] 7#7: *1 content phase: 12
+2025/06/23 08:14:00 [debug] 7#7: *1 content phase: 13
+2025/06/23 08:14:00 [debug] 7#7: *1 http filename: "/opt/data/hls/test_2/index.m3u8"
+2025/06/23 08:14:00 [debug] 7#7: *1 add cleanup: 00005C6F4FEE9B48
+2025/06/23 08:14:00 [debug] 7#7: *1 http static fd: 11
+2025/06/23 08:14:00 [debug] 7#7: *1 http set discard body
+2025/06/23 08:14:00 [debug] 7#7: *1 HTTP/1.1 206 Partial Content
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 08:14:00 GMT
+Content-Type: application/vnd.apple.mpegurl
+Content-Length: 311
+Last-Modified: Mon, 23 Jun 2025 08:12:09 GMT
+Connection: keep-alive
+ETag: "68590c59-137"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Content-Range: bytes 0-310/311
+
+2025/06/23 08:14:00 [debug] 7#7: *1 write new buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 480 file: 0, size: 0
+2025/06/23 08:14:00 [debug] 7#7: *1 http write filter: l:0 f:0 s:480
+2025/06/23 08:14:00 [debug] 7#7: *1 http output filter "/hls/test_2/index.m3u8?"
+2025/06/23 08:14:00 [debug] 7#7: *1 http range body buf: 0-311
+2025/06/23 08:14:00 [debug] 7#7: *1 http copy filter: "/hls/test_2/index.m3u8?"
+2025/06/23 08:14:00 [debug] 7#7: *1 http postpone filter "/hls/test_2/index.m3u8?" 00005C6F4FEE9DE0
+2025/06/23 08:14:00 [debug] 7#7: *1 write old buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 480 file: 0, size: 0
+2025/06/23 08:14:00 [debug] 7#7: *1 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 311
+2025/06/23 08:14:00 [debug] 7#7: *1 http write filter: l:1 f:0 s:791
+2025/06/23 08:14:00 [debug] 7#7: *1 http write filter limit 2097152
+2025/06/23 08:14:00 [debug] 7#7: *1 writev: 480 of 480
+2025/06/23 08:14:00 [debug] 7#7: *1 sendfile: @0 311
+2025/06/23 08:14:00 [debug] 7#7: *1 sendfile: 311 of 311 @0
+2025/06/23 08:14:00 [debug] 7#7: *1 http write filter 0000000000000000
+2025/06/23 08:14:00 [debug] 7#7: *1 http copy filter: 0 "/hls/test_2/index.m3u8?"
+2025/06/23 08:14:00 [debug] 7#7: *1 http finalize request: 0, "/hls/test_2/index.m3u8?" a:1, c:1
+2025/06/23 08:14:00 [debug] 7#7: *1 set http keepalive handler
+2025/06/23 08:14:00 [debug] 7#7: *1 http close request
+2025/06/23 08:14:00 [debug] 7#7: *1 http log handler
+2025/06/23 08:14:00 [debug] 7#7: *1 run cleanup: 00005C6F4FEE9B48
+2025/06/23 08:14:00 [debug] 7#7: *1 file cleanup: fd:11
+2025/06/23 08:14:00 [debug] 7#7: *1 free: 00005C6F4FEE8E40, unused: 64
+2025/06/23 08:14:00 [debug] 7#7: *1 free: 00005C6F4FEFBCB0, unused: 2165
+2025/06/23 08:14:00 [debug] 7#7: *1 free: 00005C6F4FED21B0
+2025/06/23 08:14:00 [debug] 7#7: *1 hc free: 0000000000000000
+2025/06/23 08:14:00 [debug] 7#7: *1 hc busy: 0000000000000000 0
+2025/06/23 08:14:00 [debug] 7#7: *1 tcp_nodelay
+2025/06/23 08:14:00 [debug] 7#7: *1 reusable connection: 1
+2025/06/23 08:14:00 [debug] 7#7: *1 event timer add: 3: 65000:35933937
+2025/06/23 08:14:00 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/23 08:14:00 [debug] 7#7: posix_memalign: 00005C6F4FED17A0:512 @16
+2025/06/23 08:14:00 [debug] 7#7: *2 accept: 172.20.0.1:46906 fd:11
+2025/06/23 08:14:00 [debug] 7#7: *2 event timer add: 11: 60000:35928975
+2025/06/23 08:14:00 [debug] 7#7: *2 reusable connection: 1
+2025/06/23 08:14:00 [debug] 7#7: *2 epoll add event: fd:11 op:1 ev:80002001
+2025/06/23 08:14:00 [debug] 7#7: *2 http wait request handler
+2025/06/23 08:14:00 [debug] 7#7: *2 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:00 [debug] 7#7: *2 recv: eof:0, avail:-1
+2025/06/23 08:14:00 [debug] 7#7: *2 recv: fd:11 197 of 1024
+2025/06/23 08:14:00 [debug] 7#7: *2 reusable connection: 0
+2025/06/23 08:14:00 [debug] 7#7: *2 posix_memalign: 00005C6F4FEE8E40:4096 @16
+2025/06/23 08:14:00 [debug] 7#7: *2 http process request line
+2025/06/23 08:14:00 [debug] 7#7: *2 http request line: "GET /hls/test_2/segment_000.ts HTTP/1.1"
+2025/06/23 08:14:00 [debug] 7#7: *2 http uri: "/hls/test_2/segment_000.ts"
+2025/06/23 08:14:00 [debug] 7#7: *2 http args: ""
+2025/06/23 08:14:00 [debug] 7#7: *2 http exten: "ts"
+2025/06/23 08:14:00 [debug] 7#7: *2 posix_memalign: 00005C6F4FEFBCB0:4096 @16
+2025/06/23 08:14:00 [debug] 7#7: *2 http process request header line
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "Host: localhost:9190"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "Accept: */*"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "Accept-Language: en_US"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "User-Agent: VLC/3.0.21 LibVLC/3.0.21"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "Accept-Encoding: deflate, gzip"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header: "Cache-Control: no-cache"
+2025/06/23 08:14:00 [debug] 7#7: *2 http header done
+2025/06/23 08:14:00 [debug] 7#7: *2 event timer del: 11: 35928975
+2025/06/23 08:14:00 [debug] 7#7: *2 rewrite phase: 0
+2025/06/23 08:14:00 [debug] 7#7: *2 test location: "/"
+2025/06/23 08:14:00 [debug] 7#7: *2 test location: "hls"
+2025/06/23 08:14:00 [debug] 7#7: *2 using configuration "/hls"
+2025/06/23 08:14:00 [debug] 7#7: *2 http cl:-1 max:1048576
+2025/06/23 08:14:00 [debug] 7#7: *2 rewrite phase: 2
+2025/06/23 08:14:00 [debug] 7#7: *2 post rewrite phase: 3
+2025/06/23 08:14:00 [debug] 7#7: *2 generic phase: 4
+2025/06/23 08:14:00 [debug] 7#7: *2 generic phase: 5
+2025/06/23 08:14:00 [debug] 7#7: *2 access phase: 6
+2025/06/23 08:14:00 [debug] 7#7: *2 access phase: 7
+2025/06/23 08:14:00 [debug] 7#7: *2 post access phase: 8
+2025/06/23 08:14:00 [debug] 7#7: *2 generic phase: 9
+2025/06/23 08:14:00 [debug] 7#7: *2 generic phase: 10
+2025/06/23 08:14:00 [debug] 7#7: *2 content phase: 11
+2025/06/23 08:14:00 [debug] 7#7: *2 content phase: 12
+2025/06/23 08:14:00 [debug] 7#7: *2 content phase: 13
+2025/06/23 08:14:00 [debug] 7#7: *2 http filename: "/opt/data/hls/test_2/segment_000.ts"
+2025/06/23 08:14:00 [debug] 7#7: *2 add cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:00 [debug] 7#7: *2 http static fd: 12
+2025/06/23 08:14:00 [debug] 7#7: *2 http set discard body
+2025/06/23 08:14:00 [debug] 7#7: *2 HTTP/1.1 200 OK
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 08:14:00 GMT
+Content-Type: video/mp2t
+Content-Length: 298732
+Last-Modified: Mon, 23 Jun 2025 08:12:04 GMT
+Connection: keep-alive
+ETag: "68590c54-48eec"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Accept-Ranges: bytes
+
+2025/06/23 08:14:00 [debug] 7#7: *2 write new buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:00 [debug] 7#7: *2 http write filter: l:0 f:0 s:443
+2025/06/23 08:14:00 [debug] 7#7: *2 http output filter "/hls/test_2/segment_000.ts?"
+2025/06/23 08:14:00 [debug] 7#7: *2 http copy filter: "/hls/test_2/segment_000.ts?"
+2025/06/23 08:14:00 [debug] 7#7: *2 http postpone filter "/hls/test_2/segment_000.ts?" 00007FFD1E1AEB00
+2025/06/23 08:14:00 [debug] 7#7: *2 write old buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:00 [debug] 7#7: *2 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 298732
+2025/06/23 08:14:00 [debug] 7#7: *2 http write filter: l:1 f:0 s:299175
+2025/06/23 08:14:00 [debug] 7#7: *2 http write filter limit 2097152
+2025/06/23 08:14:00 [debug] 7#7: *2 writev: 443 of 443
+2025/06/23 08:14:00 [debug] 7#7: *2 sendfile: @0 298732
+2025/06/23 08:14:00 [debug] 7#7: *2 sendfile: 298732 of 298732 @0
+2025/06/23 08:14:00 [debug] 7#7: *2 http write filter 0000000000000000
+2025/06/23 08:14:00 [debug] 7#7: *2 http copy filter: 0 "/hls/test_2/segment_000.ts?"
+2025/06/23 08:14:00 [debug] 7#7: *2 http finalize request: 0, "/hls/test_2/segment_000.ts?" a:1, c:1
+2025/06/23 08:14:00 [debug] 7#7: *2 set http keepalive handler
+2025/06/23 08:14:00 [debug] 7#7: *2 http close request
+2025/06/23 08:14:00 [debug] 7#7: *2 http log handler
+2025/06/23 08:14:00 [debug] 7#7: *2 run cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:00 [debug] 7#7: *2 file cleanup: fd:12
+2025/06/23 08:14:00 [debug] 7#7: *2 free: 00005C6F4FEE8E40, unused: 96
+2025/06/23 08:14:00 [debug] 7#7: *2 free: 00005C6F4FEFBCB0, unused: 2328
+2025/06/23 08:14:00 [debug] 7#7: *2 free: 00005C6F4FED21B0
+2025/06/23 08:14:00 [debug] 7#7: *2 hc free: 0000000000000000
+2025/06/23 08:14:00 [debug] 7#7: *2 hc busy: 0000000000000000 0
+2025/06/23 08:14:00 [debug] 7#7: *2 tcp_nodelay
+2025/06/23 08:14:00 [debug] 7#7: *2 reusable connection: 1
+2025/06/23 08:14:00 [debug] 7#7: *2 event timer add: 11: 65000:35933980
+2025/06/23 08:14:01 [debug] 7#7: *2 http keepalive handler
+2025/06/23 08:14:01 [debug] 7#7: *2 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:01 [debug] 7#7: *2 recv: eof:0, avail:-1
+2025/06/23 08:14:01 [debug] 7#7: *2 recv: fd:11 197 of 1024
+2025/06/23 08:14:01 [debug] 7#7: *2 reusable connection: 0
+2025/06/23 08:14:01 [debug] 7#7: *2 posix_memalign: 00005C6F4FEE8E40:4096 @16
+2025/06/23 08:14:01 [debug] 7#7: *2 event timer del: 11: 35933980
+2025/06/23 08:14:01 [debug] 7#7: *2 http process request line
+2025/06/23 08:14:01 [debug] 7#7: *2 http request line: "GET /hls/test_2/segment_001.ts HTTP/1.1"
+2025/06/23 08:14:01 [debug] 7#7: *2 http uri: "/hls/test_2/segment_001.ts"
+2025/06/23 08:14:01 [debug] 7#7: *2 http args: ""
+2025/06/23 08:14:01 [debug] 7#7: *2 http exten: "ts"
+2025/06/23 08:14:01 [debug] 7#7: *2 posix_memalign: 00005C6F4FEFBCB0:4096 @16
+2025/06/23 08:14:01 [debug] 7#7: *2 http process request header line
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "Host: localhost:9190"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "Accept: */*"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "Accept-Language: en_US"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "User-Agent: VLC/3.0.21 LibVLC/3.0.21"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "Accept-Encoding: deflate, gzip"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header: "Cache-Control: no-cache"
+2025/06/23 08:14:01 [debug] 7#7: *2 http header done
+2025/06/23 08:14:01 [debug] 7#7: *2 rewrite phase: 0
+2025/06/23 08:14:01 [debug] 7#7: *2 test location: "/"
+2025/06/23 08:14:01 [debug] 7#7: *2 test location: "hls"
+2025/06/23 08:14:01 [debug] 7#7: *2 using configuration "/hls"
+2025/06/23 08:14:01 [debug] 7#7: *2 http cl:-1 max:1048576
+2025/06/23 08:14:01 [debug] 7#7: *2 rewrite phase: 2
+2025/06/23 08:14:01 [debug] 7#7: *2 post rewrite phase: 3
+2025/06/23 08:14:01 [debug] 7#7: *2 generic phase: 4
+2025/06/23 08:14:01 [debug] 7#7: *2 generic phase: 5
+2025/06/23 08:14:01 [debug] 7#7: *2 access phase: 6
+2025/06/23 08:14:01 [debug] 7#7: *2 access phase: 7
+2025/06/23 08:14:01 [debug] 7#7: *2 post access phase: 8
+2025/06/23 08:14:01 [debug] 7#7: *2 generic phase: 9
+2025/06/23 08:14:01 [debug] 7#7: *2 generic phase: 10
+2025/06/23 08:14:01 [debug] 7#7: *2 content phase: 11
+2025/06/23 08:14:01 [debug] 7#7: *2 content phase: 12
+2025/06/23 08:14:01 [debug] 7#7: *2 content phase: 13
+2025/06/23 08:14:01 [debug] 7#7: *2 http filename: "/opt/data/hls/test_2/segment_001.ts"
+2025/06/23 08:14:01 [debug] 7#7: *2 add cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:01 [debug] 7#7: *2 http static fd: 12
+2025/06/23 08:14:01 [debug] 7#7: *2 http set discard body
+2025/06/23 08:14:01 [debug] 7#7: *2 HTTP/1.1 200 OK
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 08:14:01 GMT
+Content-Type: video/mp2t
+Content-Length: 133480
+Last-Modified: Mon, 23 Jun 2025 08:12:05 GMT
+Connection: keep-alive
+ETag: "68590c55-20968"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Accept-Ranges: bytes
+
+2025/06/23 08:14:01 [debug] 7#7: *2 write new buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:01 [debug] 7#7: *2 http write filter: l:0 f:0 s:443
+2025/06/23 08:14:01 [debug] 7#7: *2 http output filter "/hls/test_2/segment_001.ts?"
+2025/06/23 08:14:01 [debug] 7#7: *2 http copy filter: "/hls/test_2/segment_001.ts?"
+2025/06/23 08:14:01 [debug] 7#7: *2 http postpone filter "/hls/test_2/segment_001.ts?" 00007FFD1E1AEB10
+2025/06/23 08:14:01 [debug] 7#7: *2 write old buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:01 [debug] 7#7: *2 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 133480
+2025/06/23 08:14:01 [debug] 7#7: *2 http write filter: l:1 f:0 s:133923
+2025/06/23 08:14:01 [debug] 7#7: *2 http write filter limit 2097152
+2025/06/23 08:14:01 [debug] 7#7: *2 writev: 443 of 443
+2025/06/23 08:14:01 [debug] 7#7: *2 sendfile: @0 133480
+2025/06/23 08:14:01 [debug] 7#7: *2 sendfile: 133480 of 133480 @0
+2025/06/23 08:14:01 [debug] 7#7: *2 http write filter 0000000000000000
+2025/06/23 08:14:01 [debug] 7#7: *2 http copy filter: 0 "/hls/test_2/segment_001.ts?"
+2025/06/23 08:14:01 [debug] 7#7: *2 http finalize request: 0, "/hls/test_2/segment_001.ts?" a:1, c:1
+2025/06/23 08:14:01 [debug] 7#7: *2 set http keepalive handler
+2025/06/23 08:14:01 [debug] 7#7: *2 http close request
+2025/06/23 08:14:01 [debug] 7#7: *2 http log handler
+2025/06/23 08:14:01 [debug] 7#7: *2 run cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:01 [debug] 7#7: *2 file cleanup: fd:12
+2025/06/23 08:14:01 [debug] 7#7: *2 free: 00005C6F4FEE8E40, unused: 96
+2025/06/23 08:14:01 [debug] 7#7: *2 free: 00005C6F4FEFBCB0, unused: 2328
+2025/06/23 08:14:01 [debug] 7#7: *2 free: 00005C6F4FED21B0
+2025/06/23 08:14:01 [debug] 7#7: *2 hc free: 0000000000000000
+2025/06/23 08:14:01 [debug] 7#7: *2 hc busy: 0000000000000000 0
+2025/06/23 08:14:01 [debug] 7#7: *2 reusable connection: 1
+2025/06/23 08:14:01 [debug] 7#7: *2 event timer add: 11: 65000:35934800
+2025/06/23 08:14:03 [debug] 7#7: *2 http keepalive handler
+2025/06/23 08:14:03 [debug] 7#7: *2 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:03 [debug] 7#7: *2 recv: eof:0, avail:-1
+2025/06/23 08:14:03 [debug] 7#7: *2 recv: fd:11 197 of 1024
+2025/06/23 08:14:03 [debug] 7#7: *2 reusable connection: 0
+2025/06/23 08:14:03 [debug] 7#7: *2 posix_memalign: 00005C6F4FEE8E40:4096 @16
+2025/06/23 08:14:03 [debug] 7#7: *2 event timer del: 11: 35934800
+2025/06/23 08:14:03 [debug] 7#7: *2 http process request line
+2025/06/23 08:14:03 [debug] 7#7: *2 http request line: "GET /hls/test_2/segment_002.ts HTTP/1.1"
+2025/06/23 08:14:03 [debug] 7#7: *2 http uri: "/hls/test_2/segment_002.ts"
+2025/06/23 08:14:03 [debug] 7#7: *2 http args: ""
+2025/06/23 08:14:03 [debug] 7#7: *2 http exten: "ts"
+2025/06/23 08:14:03 [debug] 7#7: *2 posix_memalign: 00005C6F4FEFBCB0:4096 @16
+2025/06/23 08:14:03 [debug] 7#7: *2 http process request header line
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "Host: localhost:9190"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "Accept: */*"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "Accept-Language: en_US"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "User-Agent: VLC/3.0.21 LibVLC/3.0.21"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "Accept-Encoding: deflate, gzip"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header: "Cache-Control: no-cache"
+2025/06/23 08:14:03 [debug] 7#7: *2 http header done
+2025/06/23 08:14:03 [debug] 7#7: *2 rewrite phase: 0
+2025/06/23 08:14:03 [debug] 7#7: *2 test location: "/"
+2025/06/23 08:14:03 [debug] 7#7: *2 test location: "hls"
+2025/06/23 08:14:03 [debug] 7#7: *2 using configuration "/hls"
+2025/06/23 08:14:03 [debug] 7#7: *2 http cl:-1 max:1048576
+2025/06/23 08:14:03 [debug] 7#7: *2 rewrite phase: 2
+2025/06/23 08:14:03 [debug] 7#7: *2 post rewrite phase: 3
+2025/06/23 08:14:03 [debug] 7#7: *2 generic phase: 4
+2025/06/23 08:14:03 [debug] 7#7: *2 generic phase: 5
+2025/06/23 08:14:03 [debug] 7#7: *2 access phase: 6
+2025/06/23 08:14:03 [debug] 7#7: *2 access phase: 7
+2025/06/23 08:14:03 [debug] 7#7: *2 post access phase: 8
+2025/06/23 08:14:03 [debug] 7#7: *2 generic phase: 9
+2025/06/23 08:14:03 [debug] 7#7: *2 generic phase: 10
+2025/06/23 08:14:03 [debug] 7#7: *2 content phase: 11
+2025/06/23 08:14:03 [debug] 7#7: *2 content phase: 12
+2025/06/23 08:14:03 [debug] 7#7: *2 content phase: 13
+2025/06/23 08:14:03 [debug] 7#7: *2 http filename: "/opt/data/hls/test_2/segment_002.ts"
+2025/06/23 08:14:03 [debug] 7#7: *2 add cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:03 [debug] 7#7: *2 http static fd: 12
+2025/06/23 08:14:03 [debug] 7#7: *2 http set discard body
+2025/06/23 08:14:03 [debug] 7#7: *2 HTTP/1.1 200 OK
+Server: nginx/1.23.2
+Date: Mon, 23 Jun 2025 08:14:03 GMT
+Content-Type: video/mp2t
+Content-Length: 134232
+Last-Modified: Mon, 23 Jun 2025 08:12:05 GMT
+Connection: keep-alive
+ETag: "68590c55-20c58"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Accept-Ranges: bytes
+
+2025/06/23 08:14:03 [debug] 7#7: *2 write new buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:03 [debug] 7#7: *2 http write filter: l:0 f:0 s:443
+2025/06/23 08:14:03 [debug] 7#7: *2 http output filter "/hls/test_2/segment_002.ts?"
+2025/06/23 08:14:03 [debug] 7#7: *2 http copy filter: "/hls/test_2/segment_002.ts?"
+2025/06/23 08:14:03 [debug] 7#7: *2 http postpone filter "/hls/test_2/segment_002.ts?" 00007FFD1E1AEB10
+2025/06/23 08:14:03 [debug] 7#7: *2 write old buf t:1 f:0 00005C6F4FEFC130, pos 00005C6F4FEFC130, size: 443 file: 0, size: 0
+2025/06/23 08:14:03 [debug] 7#7: *2 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 134232
+2025/06/23 08:14:03 [debug] 7#7: *2 http write filter: l:1 f:0 s:134675
+2025/06/23 08:14:03 [debug] 7#7: *2 http write filter limit 2097152
+2025/06/23 08:14:03 [debug] 7#7: *2 writev: 443 of 443
+2025/06/23 08:14:03 [debug] 7#7: *2 sendfile: @0 134232
+2025/06/23 08:14:03 [debug] 7#7: *2 sendfile: 134232 of 134232 @0
+2025/06/23 08:14:03 [debug] 7#7: *2 http write filter 0000000000000000
+2025/06/23 08:14:03 [debug] 7#7: *2 http copy filter: 0 "/hls/test_2/segment_002.ts?"
+2025/06/23 08:14:03 [debug] 7#7: *2 http finalize request: 0, "/hls/test_2/segment_002.ts?" a:1, c:1
+2025/06/23 08:14:03 [debug] 7#7: *2 set http keepalive handler
+2025/06/23 08:14:03 [debug] 7#7: *2 http close request
+2025/06/23 08:14:03 [debug] 7#7: *2 http log handler
+2025/06/23 08:14:03 [debug] 7#7: *2 run cleanup: 00005C6F4FEE9B68
+2025/06/23 08:14:03 [debug] 7#7: *2 file cleanup: fd:12
+2025/06/23 08:14:03 [debug] 7#7: *2 free: 00005C6F4FEE8E40, unused: 96
+2025/06/23 08:14:03 [debug] 7#7: *2 free: 00005C6F4FEFBCB0, unused: 2328
+2025/06/23 08:14:03 [debug] 7#7: *2 free: 00005C6F4FED21B0
+2025/06/23 08:14:03 [debug] 7#7: *2 hc free: 0000000000000000
+2025/06/23 08:14:03 [debug] 7#7: *2 hc busy: 0000000000000000 0
+2025/06/23 08:14:03 [debug] 7#7: *2 reusable connection: 1
+2025/06/23 08:14:03 [debug] 7#7: *2 event timer add: 11: 65000:35937228
+2025/06/23 08:14:04 [debug] 7#7: *2 http keepalive handler
+2025/06/23 08:14:04 [debug] 7#7: *2 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:04 [debug] 7#7: *2 recv: eof:1, avail:-1
+2025/06/23 08:14:04 [debug] 7#7: *2 recv: fd:11 0 of 1024
+2025/06/23 08:14:04 [info] 7#7: *2 client 172.20.0.1 closed keepalive connection
+2025/06/23 08:14:04 [debug] 7#7: *2 close http connection: 11
+2025/06/23 08:14:04 [debug] 7#7: *2 event timer del: 11: 35937228
+2025/06/23 08:14:04 [debug] 7#7: *2 reusable connection: 0
+2025/06/23 08:14:04 [debug] 7#7: *2 free: 00005C6F4FED21B0
+2025/06/23 08:14:04 [debug] 7#7: *2 free: 00005C6F4FED17A0, unused: 136
+2025/06/23 08:14:04 [debug] 7#7: *1 http keepalive handler
+2025/06/23 08:14:04 [debug] 7#7: *1 malloc: 00005C6F4FED21B0:1024
+2025/06/23 08:14:04 [debug] 7#7: *1 recv: eof:1, avail:-1
+2025/06/23 08:14:04 [debug] 7#7: *1 recv: fd:3 0 of 1024
+2025/06/23 08:14:04 [info] 7#7: *1 client 172.20.0.1 closed keepalive connection
+2025/06/23 08:14:04 [debug] 7#7: *1 close http connection: 3
+2025/06/23 08:14:04 [debug] 7#7: *1 event timer del: 3: 35933937
+2025/06/23 08:14:04 [debug] 7#7: *1 reusable connection: 0
+2025/06/23 08:14:04 [debug] 7#7: *1 free: 00005C6F4FED21B0
+2025/06/23 08:14:04 [debug] 7#7: *1 free: 00005C6F4FEEC1F0, unused: 136
