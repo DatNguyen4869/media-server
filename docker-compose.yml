@@ -13,3 +13,28 @@ services:
       - ./hls:/opt/data/hls
       - ./logs:/var/log/nginx
     restart: unless-stopped
+  
+  media-server:
+    build: .
+    container_name: media-server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./upload:/media-server/upload
+      - ./hls:/media-server/hls
+    restart: unless-stopped
+
+  # minio:
+  #   image: minio/minio
+  #   container_name: minio
+  #   ports:
+  #     - "9000:9000"    # S3 API
+  #     - "9001:9001"    # MinIO Console
+  #   volumes:
+  #     - ./minio/data:/data
+  #     - ./minio/config:/root/.minio
+  #   environment:
+  #     MINIO_ROOT_USER: minioadmin
+  #     MINIO_ROOT_PASSWORD: minioadmin123
+  #   command: server /data --console-address ":9001"
+  #   restart: unless-stopped

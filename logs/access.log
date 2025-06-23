@@ -10,3 +10,6 @@
 172.20.0.1 - - [23/Jun/2025:08:14:00 +0000] "GET /hls/test_2/segment_000.ts HTTP/1.1" 200 298732 "-" "VLC/3.0.21 LibVLC/3.0.21"
 172.20.0.1 - - [23/Jun/2025:08:14:01 +0000] "GET /hls/test_2/segment_001.ts HTTP/1.1" 200 133480 "-" "VLC/3.0.21 LibVLC/3.0.21"
 172.20.0.1 - - [23/Jun/2025:08:14:03 +0000] "GET /hls/test_2/segment_002.ts HTTP/1.1" 200 134232 "-" "VLC/3.0.21 LibVLC/3.0.21"
+172.18.0.1 - - [23/Jun/2025:15:47:19 +0000] "GET /hls/test_2/index.m3u8 HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+172.18.0.1 - - [23/Jun/2025:15:47:21 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:9190/hls/test_2/index.m3u8" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+172.18.0.1 - - [23/Jun/2025:15:47:37 +0000] "GET /hls/test_2/index.m3u8 HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
