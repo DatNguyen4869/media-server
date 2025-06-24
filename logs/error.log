@@ -1102,3 +1102,131 @@ Accept-Ranges: bytes
 2025/06/23 15:58:19 [debug] 7#7: *1 free: 000061668D4E91F0, unused: 232
 2025/06/23 17:06:53 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
 2025/06/23 17:23:11 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 00:55:53 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:04:54 [debug] 8#8: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:17:42 [debug] 8#8: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:20:07 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:20:42 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:37:41 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 01:38:54 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/24 01:38:54 [debug] 7#7: posix_memalign: 000062EC909DB1F0:512 @16
+2025/06/24 01:38:54 [debug] 7#7: *1 accept: 172.20.0.1:54104 fd:3
+2025/06/24 01:38:54 [debug] 7#7: *1 event timer add: 3: 60000:3098126
+2025/06/24 01:38:54 [debug] 7#7: *1 reusable connection: 1
+2025/06/24 01:38:54 [debug] 7#7: *1 epoll add event: fd:3 op:1 ev:80002001
+2025/06/24 01:38:54 [debug] 7#7: *1 http wait request handler
+2025/06/24 01:38:54 [debug] 7#7: *1 malloc: 000062EC909C11B0:1024
+2025/06/24 01:38:54 [debug] 7#7: *1 recv: eof:0, avail:-1
+2025/06/24 01:38:54 [debug] 7#7: *1 recv: fd:3 792 of 1024
+2025/06/24 01:38:54 [debug] 7#7: *1 reusable connection: 0
+2025/06/24 01:38:54 [debug] 7#7: *1 posix_memalign: 000062EC909D7E40:4096 @16
+2025/06/24 01:38:54 [debug] 7#7: *1 http process request line
+2025/06/24 01:38:54 [debug] 7#7: *1 http request line: "GET /hls/test_2-00a6290e/index.m3u8 HTTP/1.1"
+2025/06/24 01:38:54 [debug] 7#7: *1 http uri: "/hls/test_2-00a6290e/index.m3u8"
+2025/06/24 01:38:54 [debug] 7#7: *1 http args: ""
+2025/06/24 01:38:54 [debug] 7#7: *1 http exten: "m3u8"
+2025/06/24 01:38:54 [debug] 7#7: *1 posix_memalign: 000062EC909EACB0:4096 @16
+2025/06/24 01:38:54 [debug] 7#7: *1 http process request header line
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Host: localhost:9190"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Connection: keep-alive"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "sec-ch-ua: "Microsoft Edge";v="137", "Chromium";v="137", "Not/A)Brand";v="24""
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "sec-ch-ua-mobile: ?0"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "sec-ch-ua-platform: "Windows""
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Upgrade-Insecure-Requests: 1"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Sec-Fetch-Site: none"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Sec-Fetch-Mode: navigate"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Sec-Fetch-User: ?1"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Sec-Fetch-Dest: document"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Accept-Language: en-US,en;q=0.9"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header: "Cookie: deviceId=ddb034409d5f0f10cfd60de9ae17f94a8697ecde0d24bfb1205ed83fd0e30b8c"
+2025/06/24 01:38:54 [debug] 7#7: *1 http header done
+2025/06/24 01:38:54 [debug] 7#7: *1 event timer del: 3: 3098126
+2025/06/24 01:38:54 [debug] 7#7: *1 rewrite phase: 0
+2025/06/24 01:38:54 [debug] 7#7: *1 test location: "/"
+2025/06/24 01:38:54 [debug] 7#7: *1 test location: "hls"
+2025/06/24 01:38:54 [debug] 7#7: *1 using configuration "/hls"
+2025/06/24 01:38:54 [debug] 7#7: *1 http cl:-1 max:1048576
+2025/06/24 01:38:54 [debug] 7#7: *1 rewrite phase: 2
+2025/06/24 01:38:54 [debug] 7#7: *1 post rewrite phase: 3
+2025/06/24 01:38:54 [debug] 7#7: *1 generic phase: 4
+2025/06/24 01:38:54 [debug] 7#7: *1 generic phase: 5
+2025/06/24 01:38:54 [debug] 7#7: *1 access phase: 6
+2025/06/24 01:38:54 [debug] 7#7: *1 access phase: 7
+2025/06/24 01:38:54 [debug] 7#7: *1 post access phase: 8
+2025/06/24 01:38:54 [debug] 7#7: *1 generic phase: 9
+2025/06/24 01:38:54 [debug] 7#7: *1 generic phase: 10
+2025/06/24 01:38:54 [debug] 7#7: *1 content phase: 11
+2025/06/24 01:38:54 [debug] 7#7: *1 content phase: 12
+2025/06/24 01:38:54 [debug] 7#7: *1 content phase: 13
+2025/06/24 01:38:54 [debug] 7#7: *1 http filename: "/opt/data/hls/test_2-00a6290e/index.m3u8"
+2025/06/24 01:38:54 [debug] 7#7: *1 add cleanup: 000062EC909D8BE8
+2025/06/24 01:38:54 [debug] 7#7: *1 http static fd: 11
+2025/06/24 01:38:54 [debug] 7#7: *1 http set discard body
+2025/06/24 01:38:54 [debug] 7#7: *1 HTTP/1.1 200 OK
+Server: nginx/1.23.2
+Date: Tue, 24 Jun 2025 01:38:54 GMT
+Content-Type: application/vnd.apple.mpegurl
+Content-Length: 311
+Last-Modified: Tue, 24 Jun 2025 01:19:37 GMT
+Connection: keep-alive
+ETag: "6859fd29-137"
+Cache-Control: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: Range
+Accept-Ranges: bytes
+
+2025/06/24 01:38:54 [debug] 7#7: *1 write new buf t:1 f:0 000062EC909EB130, pos 000062EC909EB130, size: 457 file: 0, size: 0
+2025/06/24 01:38:54 [debug] 7#7: *1 http write filter: l:0 f:0 s:457
+2025/06/24 01:38:54 [debug] 7#7: *1 http output filter "/hls/test_2-00a6290e/index.m3u8?"
+2025/06/24 01:38:54 [debug] 7#7: *1 http copy filter: "/hls/test_2-00a6290e/index.m3u8?"
+2025/06/24 01:38:54 [debug] 7#7: *1 http postpone filter "/hls/test_2-00a6290e/index.m3u8?" 00007FFD3BBC6CC0
+2025/06/24 01:38:54 [debug] 7#7: *1 write old buf t:1 f:0 000062EC909EB130, pos 000062EC909EB130, size: 457 file: 0, size: 0
+2025/06/24 01:38:54 [debug] 7#7: *1 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 311
+2025/06/24 01:38:54 [debug] 7#7: *1 http write filter: l:1 f:0 s:768
+2025/06/24 01:38:54 [debug] 7#7: *1 http write filter limit 2097152
+2025/06/24 01:38:54 [debug] 7#7: *1 writev: 457 of 457
+2025/06/24 01:38:54 [debug] 7#7: *1 sendfile: @0 311
+2025/06/24 01:38:54 [debug] 7#7: *1 sendfile: 311 of 311 @0
+2025/06/24 01:38:54 [debug] 7#7: *1 http write filter 0000000000000000
+2025/06/24 01:38:54 [debug] 7#7: *1 http copy filter: 0 "/hls/test_2-00a6290e/index.m3u8?"
+2025/06/24 01:38:54 [debug] 7#7: *1 http finalize request: 0, "/hls/test_2-00a6290e/index.m3u8?" a:1, c:1
+2025/06/24 01:38:54 [debug] 7#7: *1 set http keepalive handler
+2025/06/24 01:38:54 [debug] 7#7: *1 http close request
+2025/06/24 01:38:54 [debug] 7#7: *1 http log handler
+2025/06/24 01:38:54 [debug] 7#7: *1 run cleanup: 000062EC909D8BE8
+2025/06/24 01:38:54 [debug] 7#7: *1 file cleanup: fd:11
+2025/06/24 01:38:54 [debug] 7#7: *1 free: 000062EC909D7E40, unused: 88
+2025/06/24 01:38:54 [debug] 7#7: *1 free: 000062EC909EACB0, unused: 2079
+2025/06/24 01:38:54 [debug] 7#7: *1 free: 000062EC909C11B0
+2025/06/24 01:38:54 [debug] 7#7: *1 hc free: 0000000000000000
+2025/06/24 01:38:54 [debug] 7#7: *1 hc busy: 0000000000000000 0
+2025/06/24 01:38:54 [debug] 7#7: *1 tcp_nodelay
+2025/06/24 01:38:54 [debug] 7#7: *1 reusable connection: 1
+2025/06/24 01:38:54 [debug] 7#7: *1 event timer add: 3: 65000:3103129
+2025/06/24 01:38:54 [debug] 7#7: accept on 0.0.0.0:9190, ready: 0
+2025/06/24 01:38:54 [debug] 7#7: posix_memalign: 000062EC909C07A0:512 @16
+2025/06/24 01:38:54 [debug] 7#7: *2 accept: 172.20.0.1:54112 fd:11
+2025/06/24 01:38:54 [debug] 7#7: *2 event timer add: 11: 60000:3098163
+2025/06/24 01:38:54 [debug] 7#7: *2 reusable connection: 1
+2025/06/24 01:38:54 [debug] 7#7: *2 epoll add event: fd:11 op:1 ev:80002001
+2025/06/24 01:39:54 [debug] 7#7: *2 event timer del: 11: 3098163
+2025/06/24 01:39:54 [debug] 7#7: *2 http wait request handler
+2025/06/24 01:39:54 [info] 7#7: *2 client timed out (110: Connection timed out) while waiting for request, client: 172.20.0.1, server: 0.0.0.0:9190
+2025/06/24 01:39:54 [debug] 7#7: *2 close http connection: 11
+2025/06/24 01:39:54 [debug] 7#7: *2 reusable connection: 0
+2025/06/24 01:39:54 [debug] 7#7: *2 free: 000062EC909C07A0, unused: 232
+2025/06/24 01:39:59 [debug] 7#7: *1 event timer del: 3: 3103129
+2025/06/24 01:39:59 [debug] 7#7: *1 http keepalive handler
+2025/06/24 01:39:59 [debug] 7#7: *1 close http connection: 3
+2025/06/24 01:39:59 [debug] 7#7: *1 reusable connection: 0
+2025/06/24 01:39:59 [debug] 7#7: *1 free: 0000000000000000
+2025/06/24 01:39:59 [debug] 7#7: *1 free: 000062EC909DB1F0, unused: 136
+2025/06/24 02:36:12 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 02:44:19 [debug] 8#8: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 02:52:01 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
+2025/06/24 02:58:32 [debug] 7#7: epoll add event: fd:6 op:1 ev:00002001
