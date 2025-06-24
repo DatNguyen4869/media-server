@@ -31,9 +31,15 @@ public class UploadController {
     @Value("${minio.bucket}")
     private String bucketName;
 
-    private static final String UPLOAD_DIR = "/media-server/upload/";
-    private static final String HLS_DIR = "/media-server/hls/";
-    private static final String CALLBACK_URL = "http://localhost:8081/api/notify"; // Adjust as needed
+    @Value("${upload.dir}")
+    private String uploadDir;
+
+    @Value("${hls.dir}")
+    private String hlsDir;
+
+    @Value("${callback.url}")
+    private String callbackUrl;
+
 
     private static final Map<String, String> conversionStatus = new ConcurrentHashMap<>();
 
@@ -46,13 +52,18 @@ public class UploadController {
         try {
             String originalFilename = StringUtils.cleanPath(file.getOriginalFilename());
             String baseName = originalFilename.substring(0, originalFilename.lastIndexOf("."));
+            String extension = originalFilename.substring(originalFilename.lastIndexOf(".")).toLowerCase();
+            if (!extension.matches("\\.(mp4|mov|webm)")) {
+                return ResponseEntity.badRequest().body("Unsupported file format: " + extension);
+            }
+
             String uniqueName = baseName + "-" + UUID.randomUUID().toString().substring(0, 8);
 
-            Path uploadPath = Paths.get(UPLOAD_DIR, uniqueName + ".mp4");
+            Path uploadPath = Paths.get(uploadDir, uniqueName + extension);
             Files.createDirectories(uploadPath.getParent());
             file.transferTo(uploadPath);
 
-            Path hlsOutputDir = Paths.get(HLS_DIR, uniqueName);
+            Path hlsOutputDir = Paths.get(hlsDir, uniqueName);
             Files.createDirectories(hlsOutputDir);
 
             conversionStatus.put(uniqueName, "processing");
@@ -62,9 +73,9 @@ public class UploadController {
                 try {
 
                     // Check and create bucket if needed
-                    boolean exists = minioClient.bucketExists(BucketExistsArgs.builder().bucket("hls-videos").build());
+                    boolean exists = minioClient.bucketExists(BucketExistsArgs.builder().bucket(bucketName).build());
                     if (!exists) {
-                        minioClient.makeBucket(MakeBucketArgs.builder().bucket("hls-videos").build());
+                        minioClient.makeBucket(MakeBucketArgs.builder().bucket(bucketName).build());
                     }
 
                     ProcessBuilder pb = new ProcessBuilder(
@@ -76,7 +87,7 @@ public class UploadController {
                         "-hls_time", "5",
                         "-hls_playlist_type", "vod",
                         "-hls_segment_filename", hlsOutputDir.resolve("segment_%03d.ts").toString(),
-                        hlsOutputDir.resolve("index.m3u8").toString()
+                        hlsOutputDir.resolve(uniqueName + ".m3u8").toString()
                     );
 
                     pb.inheritIO();
@@ -154,7 +165,7 @@ public class UploadController {
 
     private void sendCallback(String jobId, String status) {
         try {
-            URL url = new URL(CALLBACK_URL);
+            URL url = new URL(callbackUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");
